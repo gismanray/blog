@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fairy Garden</title>
+<style type="text/css">
+.port { width:350px; margin:3px; }
+.lscp { width:710px; margin:3px; }
+.page { width:725px; font-family:arial; text-align:left; }
+p { font-family:simsun; font-size:12pt; line-height:20pt; }
+</style>
+<script type="text/javascript">
+window.onload = main;
+function main() {
+	let htmlcollection = document.getElementsByTagName("img");
+	let imglist = Array.from(htmlcollection);
+	imglist.forEach(addevent);
+}
+
+function addevent(img, index) {
+		img.addEventListener("click", function() {
+			let cla = this.getAttribute("class");
+			if (cla == "port") {
+				if (this.clientWidth < 710) {
+					this.style.width = "710px";
+				} else {
+					this.style.width = "350px";
+				}
+			}
+		});
+	}
+</script>
+</head>
+<body>
+<center>
+<div class="page">
+<!--
+<p style="font-family:lisu; font-size:36pt; text-align:center; margin-bottom:0pt; line-height:36pt;">童 话 园</p>
+<p style="font-family:Blackadder ITC; font-size:24pt; text-align:center; margin-top:0pt; line-height:24pt;">Fairy Garden</p>
+-->
+<br>
+<center><img src="fairy-garden.png"></center>
+
+<p>村子后面是无边的北美黄松森林，苍翠挺拔，延绵千里。林中有许多小道，松鼠在树干和地面奔跑跳跃，不时有鹿群出没。
+	村里人在里面散步、遛狗、跑步、骑车，孩子们在森林里游戏娱乐。我也是森林的常客，经常在里面散步、跑步和骑山地车，
+  	常以为自己熟悉里面的每一条路。可是今天进了林子，不经意往右边一偏，发现了一条从没走过的小道，
+  	意外地闯入了一个童话世界。</p>
+
+<p>这条小道林子较密，树荫较多，虽然是盛夏的上午十点多钟，走起来也不觉得热。走了一公里后，来到了一片非常平坦而又宽阔的山丘顶部，
+	这里树林也更密。稍往前，山道出现了一个分岔。往右，路较宽，有车辙，树稍稀；往左，路狭小，唯步道，多树荫。
+	于是往左，没走多远，首先发现路边一棵松树底下有一块漆成绿色的鹅卵石，上面画着花，还用草体字写着<span 
+	style="font-family:times;">enjoy</span>(欣赏)。再往前走，路边上出现越来越多的彩绘石，还有格式各样的工艺装饰品和玩具，
+  	有小房子、小仙女、小城堡等等。小的一处就一两个彩绘石，大的一处俨然一个主题公园，地上还点缀着五颜六色的玻璃珠子。
+  	它们被精心的布放在路旁的树脚下、树桩上、树洞里，延绵数百米，目不暇接。在另一头的一处较大的景点，
+  	有一块彩绘石上写着<span style="font-family:times;">Fairy Garden</span>(童话园)。</p>
+
+<p>童话园是孩子们的艺术杰作。园中作品充满着对美好事物的向往和对世界的关爱，也体系了孩子们无限的想象力和表现能力。
+	为了再欣赏一次童话园，回来的时候我选择了原路返回。正巧在园中遇上两个年轻的父亲，带着四个身穿公主裙的金发碧眼洋娃娃在玩耍。
+	孩子们两两一组，蹲在地上正聚精会神的建设着她们的理想乐园。在这里，我感受到童话世界和现实童话完美地融合在一起。</p>
+
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczMxPRnqlnSKvRKZlkYxD060fgJo-61aSv-VXbCsPA53aL2PlXV2IWSwcd7N6QiLI_Qr5ptWL0jwEwpXzOfn8xgkR4kooCbXi_PVXRPEHEC-WPYJp-P_TAX2mdxBqrJHUEZAA77rkhM__zf2WY0Ay208rQ=w722-h963-s-no-gm?authuser=0">
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczP42qjRKkCmk8kzvHQd7_JOTHkuq1mK_yU_sdOtuI6s8Smj16HI4G0inq_XmeTemfCBORSB8bsYv7xUUEELJiIF-zzr6nyjMzXHqpKPwFnSIvJj0QqEgPwMP_JXaLca1odebje6bYkqk37-hK0fPj1W4A=w722-h963-s-no-gm?authuser=0"><br>
+
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczNpyh8ssZTd98ou1Q3BXPLnGcyGnX5F-Dy-bJTXXBmNRpB4TLvGFoDkTLo2UIElKR2VPAfm_FhWYC2gGkHUT0vsOG9lsBUYJH-3PA2nEIlQA212e7jTXN_Y_y-dKEv8kcL8F8mdI3f5LAjzQxUhv0VImA=w722-h963-s-no-gm?authuser=0">
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczNBr-ac1vsOjLdrqOrEb8-iuWdB2ppsEX8hMi-2D7X5oWnEHBkWQWeH1O0aOtnt8Lt9FTj15hNVQbh2GwscIlhAhwVP3mTLWuy2VvY-pGecmoJQW1J-uhIV7A2tezjMSmNCxclsiBbllkQ-W0PtDLP55A=w722-h963-s-no-gm?authuser=0"><br>
+
+<img class="lscp" src="https://lh3.googleusercontent.com/pw/AP1GczO75pwFzw47ykL4vbeE3U_LaGK5MmZPBFsDh8k7xNZbegaF6EK89FDRB_l3G0JyOotQWa-gmQjI8_8tS8mq2RV4mRqW1l7YfKFI3PBqX_6lm2bxT38SmwIa4FACiECuh06BX0z-gDN2czBYlWf4HqR00w=w1284-h963-s-no-gm?authuser=0"><br>
+
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczNe_yDo53TpVzDZyfYFPVNIK4mo2FvgIwmze1wrxwryxcBGXBTJ76Cbh2Eod6h0CWytzv7dRujb352sKet0pm3jO2xnfgbgN1SlqvbSMt66K310ZDtCa0NhDKkeTUfABvs5UZvNa4w34xvggFu7UG6bGg=w722-h963-s-no-gm?authuser=0">
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczOFUnS2qc76PLDpVIfKJGkiYxJujHlSMe2Szf0jg77AnsvoTqjnqly7ntXZHkcavywoNazEVi_BOUpfdtk9XHjKFmgQkl_qFB42xotIXqxuXnrSmxEtv1iSktVHPaVtAX8xHYtf4kd4-ChkaEjLqW2AKQ=w722-h963-s-no-gm?authuser=0"><br>
+
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczNqEEpot5lcpXNmx6wHQabQlbnoIb0ZJdWAEfWfkzcP3LQbnMhYpF2vcEzzJhU9ThzpdBY6-EBKPDCJx3w4KZzDThGZnZbP9b2j_5Ld8IGxoy8Ho-TatAbUn9vxfoMzX-jL5g91CYN2EgaEK5lXrXOJ2A=w722-h963-s-no-gm?authuser=0">
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczNUXdqIkdP0dP3ixRxFtkqCgp3UpUZEx1xHPno0eUmgJYOoq7DHmLPE171YZxBSge-f9uIEFVEZT4gUlZNewhSdQHLMOwYimFFOwsMDrTpgh4zHy--1fdZiaDav1SK55MZIqwqYB4M72yOC7FPkt4hK2w=w722-h963-s-no-gm?authuser=0"><br>
+
+<img class="lscp" src="https://lh3.googleusercontent.com/pw/AP1GczNnm0QRE5fuifU_4V60lTInrXC7qF5ESWd8h4AAtpPxhWl-lltUi2Mu-8DBA3E-y1LNnMqelW67NmpKlOL-lH2i9suFOB7jk574313Bt62E39PtyTxHa20ItanrW9jz_yJ49TprL-LkqQTzurKkrpsqkA=w1284-h963-s-no-gm?authuser=0"><br>
+
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczNV3iB1Mnq6GI8B1wKW2kOaAFhr1XgtyxRwnaoUVqLxUh4h9eJ6pSM7p3J3Fi-4IWUHf_X2yebbSjksU01G-NP0_B51IGPwFfYfJVGJ6aPBUSBNHXdCzk0qF0URsaTYq-FaZOGX0bazLU1BUen7C4t4WA=w722-h963-s-no-gm?authuser=0">
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczMJlIui-J2ZSPEx_RL4G1RAYRu5d-vOz_yKK2Hbxu35YPywj8NjgMdzUg7e-AxhbiAKRK043Q4P-UUGnVSQh3Dd-QALoC2f2Xc7WKWqhoLyHU3k4BUWdCxDd2E93tNyl92igTGDL_3ErBS4hflHATAmWA=w722-h963-s-no-gm?authuser=0"><br>
+
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczP22TUaZOu9ndVM8esGJO5r8phxssKOqu8dkMWadj1mI-FMjyad5tGjjRKpXP5WIttWexU-vEfDxR2vckPaBIITFup-JlyCT-DKITC511xenwET-egjq4MbJYFMPIj9FOjKK530MCxT07mj2fu5AeYAsQ=w722-h963-s-no-gm?authuser=0">
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczNyCKvMdRARI0NjK4-iu9w8hcmPiizcm9JznqhGoE9gL1pT1V-z_1YBCpYis-WgCoaJMkvkv_g4XqLK_RbLkHPIyBxfh1GsYUXbVgn75mHxCE800BoI3ZUjSzBrpA2Q8plLeyNmhTTbd-cx25ChzO4JSQ=w722-h963-s-no-gm?authuser=0"><br>
+
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczOo6xJz9xX2c9vCl8c7aHz6CdsTmyQUJEB78_qh2Ze4aEU3mXk9zH_HJkqXGiXbQjKe5ipiCPreyLEZ0w-EMq5vGxj4bETEMG_wgwuzEGXQVr0aFN2KijlCAXp6ci4IAJm1FusqUpzqS3xlFEDr90Wztw=w722-h963-s-no-gm?authuser=0">
+<img class="port" src="https://lh3.googleusercontent.com/pw/AP1GczOfsoViov-rWweo6uRSkE8ipa_Pc_npe-wtVKQ6PPaIxcHz3aJMhgrJOzNgKWIvoeqDyIkFWDPHw5DysN3CPMZTFwNpda_nVSklV9obdfzR14xhR65x65C0AumGQwO9re9DjwpS1LABfRwCoDiJATG7og=w722-h963-s-no-gm?authuser=0"><br>
+</div>
+</center>
+</body>
+</html>
