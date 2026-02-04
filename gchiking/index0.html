@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grand Canyon Trails</title>
+<style type="text/css">
+img { width:960px; margin:10px; margin-bottom:3px; }
+.cap { margin:10px; margin-top:0px; font-family:arial; font-size:11pt; }
+</style>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$(document).ready(function() {
+	$("img").click(function() {
+		if ($(this).width() == 960) {
+			$(this).width(1400);
+		} else {
+			$(this).width(960);
+		}
+	});
+});
+</script>
+</head>
+<body>
+<center><div style="position:relative;">
+<h1 style="font-family:arial; margin-bottom:3pt;">Grand Canyon South Kaibab Trail and Bright Angel Trail</h1>
+<p style="font-family:arial; font-size:14pt; margin-top:0px;">(Click on pictures to enlarge/restore size)</p>
+<img src="images/south_kaibab_trail1a.png">
+<p class="cap">South Kaibab Trail - Looking down from the South Rim</p>
+
+<img src="images/south_kaibab_trail2.png">
+<p class="cap">South Kaibab Trail - Looking up from the Colorado River</p>
+
+<img src="images/colorado_river.png">
+<p class="cap">Trails by the Colorado River</p>
+
+<img src="images/bright_angel_trail_lower_section.png">
+<p class="cap">Bright Angel Trail - the lower section</p>
+
+<img src="images/bright_angel_trail_upper_section.png">
+<p class="cap">Bright Angel Trail - the upper section</p>
+
+<img src="images/bright_angel_trail.png">
+<p class="cap">Bright Angel Trail - overview</p>
+</div>
+</center>
+</body>
+</html>
