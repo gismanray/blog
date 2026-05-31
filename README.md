@@ -1,9 +1,10 @@
 ---
-title: "Welcome to My Blog!"
 layout: post
+title: "Welcome to My Blog"
 ---
 
 # Welcome!
 
 1. [Grand Canyon Hiking](gchiking/)
 2. [Fairy Garden](fairy_garden.html)
+3. [Rose Garden](rose_garden/)
