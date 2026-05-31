@@ -1,7 +1,8 @@
 ---
 title: "Welcome to My Blog!"
-
+layout: post
 ---
+
 # Welcome!
 
 1. [Grand Canyon Hiking](gchiking/)
