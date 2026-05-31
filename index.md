@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Welcome to My Blog"
+show_title: false
 ---
 
 # Welcome!
