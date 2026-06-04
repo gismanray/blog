@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Welcome to My Blog"
-show_title: false
+show_title: true
 nav_exclude: true
 ---
 
