@@ -28,6 +28,7 @@ function zoom(pic) {
     if (pic.width <= 185) {
         pic.style.width = 780+"px";
         pic.style.cursor = "zoom-out";
+        pic.scrollIntoView();
     } else {
         pic.style.width = 185+"px";
         pic.style.cursor = "zoom-in";
